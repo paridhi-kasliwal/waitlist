@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-decoration:none;
+}
+
+body{
+	width:100%;
+    margin:auto;
+    max-width:1350px;
+	padding:0px 15px;
+	background-color: #1F2B36;
+	color: white;
+	font-size:16px;
+	font-weight:400;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    padding-top: 10px;
+    text-align: center;
+    height: 610px;
+}
+

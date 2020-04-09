@@ -1,0 +1,17 @@
+<div class="wrapper">
+    <div><h1>{{msg.thank_you}}</h1></div>
+    <div>{{msg.position}}</div>
+    <div>{{msg.position_text}}</div>
+    <div class="fontStyle">{{msg.share}} <span class="red">{{msg.share_now}}</span></div>
+    <div>
+        <span class="largeFont">Referral Link:  </span> 
+        <input type="text" value="http://xyz.com/paridhi/1" readonly/> 
+        <button><i class="fa fa-cog fa-copy"></i></button>
+    </div>
+    <div class="blue fontStyle">{{msg.offer_text}}</div>
+
+    <app-timer></app-timer>
+    <div class="pt80">
+        <button type="button" (click)="openLeaderBoard()">{{msg.view_leader_borad}}</button>
+    </div>
+</div>

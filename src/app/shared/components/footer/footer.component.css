@@ -1,0 +1,8 @@
+.footer {
+    text-align: center;
+    font-style: italic;
+    display: inline-block;
+    box-shadow: 0 -15px 15px -17px grey;
+    width: 1350px;
+    padding-top: 20px;
+}

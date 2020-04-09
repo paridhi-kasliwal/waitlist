@@ -1,0 +1,42 @@
+div {
+    padding-bottom: 15px;
+}
+
+.blue {
+    color: #3F76B3;
+}
+
+.red {
+    color: red;
+}
+
+.fontStyle {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+
+.largeFont {
+    font-size: larger;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    background: #f1f1f1;
+}
+
+button {
+    padding: 10px;
+    background: #3F76B3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.pt80 {
+    padding-top: 80px;
+}

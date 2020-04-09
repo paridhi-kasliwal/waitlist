@@ -1,0 +1,42 @@
+div {
+    padding-bottom: 15px;
+}
+
+.boldText {
+    font-size: x-large;
+}
+
+form {
+    padding-top: 10px;
+    margin:auto;
+    max-width:500px
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+}
+
+button {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    background: #3F76B3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.alignText {
+    text-align: justify;
+}
