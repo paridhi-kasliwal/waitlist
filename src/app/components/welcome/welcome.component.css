@@ -4,6 +4,8 @@ div {
 
 .boldText {
     font-size: x-large;
+    font-weight: bolder;
+    color: #3F76B3;
 }
 
 form {
@@ -39,4 +41,5 @@ button {
 
 .alignText {
     text-align: justify;
+    padding-top: 40px;
 }

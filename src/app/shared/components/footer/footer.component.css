@@ -1,8 +1,14 @@
 .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    font-size: small;
+    padding-top: 20px;
     text-align: center;
     font-style: italic;
+    padding-bottom: 10px;
     display: inline-block;
     box-shadow: 0 -15px 15px -17px grey;
-    width: 1350px;
-    padding-top: 20px;
 }
+

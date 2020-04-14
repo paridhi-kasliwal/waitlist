@@ -6,8 +6,8 @@ const UserSchema = new Schema({
     type: String,
     required: true
   },
-  referralLink: {
-    type: String,
+  referralCount: {
+    type: Number,
     required: true
   },
   position: {

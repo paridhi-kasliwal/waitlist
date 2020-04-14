@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { interval } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { HelperService } from '../../services/helper.service';
+import { Constants } from 'src/app/shared/constants/constants';
 
 @Component({
   selector: 'app-timer',
@@ -9,7 +10,8 @@ import { HelperService } from '../../services/helper.service';
   styleUrls: ['./timer.component.css']
 })
 export class TimerComponent implements OnInit, AfterViewInit {
-  enddate = '2020-04-11';
+  msg = Constants.timer;
+  enddate = '2020-04-19';
   _diff: number;
   _days: number;
   _hours: number;

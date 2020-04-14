@@ -1,17 +1,46 @@
 <div class="wrapper">
+    <div id="particles-js"></div>
     <div><h1>{{msg.thank_you}}</h1></div>
-    <div>{{msg.position}}</div>
-    <div>{{msg.position_text}}</div>
+    <div>{{msg.added_email}}</div>
+    <div><span class="gold">{{msg.position}} <b>{{current_position}},</b></span> {{current_position - 1}} {{msg.position_text}}</div>
+    <div class="blue fontStyle">{{msg.offer_text}}</div>
     <div class="fontStyle">{{msg.share}} <span class="red">{{msg.share_now}}</span></div>
     <div>
         <span class="largeFont">Referral Link:  </span> 
-        <input type="text" value="http://xyz.com/paridhi/1" readonly/> 
-        <button><i class="fa fa-cog fa-copy"></i></button>
+        <input type="text" [value]="referral_link" readonly/> 
+        <button (click)="copyLink(referral_link)"><i class="fa fa-cog fa-copy"></i></button>
     </div>
-    <div class="blue fontStyle">{{msg.offer_text}}</div>
-
     <app-timer></app-timer>
-    <div class="pt80">
-        <button type="button" (click)="openLeaderBoard()">{{msg.view_leader_borad}}</button>
+    <div class="pt40">
+        <button type="button" (click)="openLeaderBoard(content)">{{msg.view_leader_borad}}</button>
     </div>
 </div>
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title" class="black">Leaderboard</h4>
+    </div>
+    <div class="modal-body black">
+      <div>
+        <img src="../../../assets/imgs/win.jpg" style="width: 465px;"/>
+      </div>
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Email</th>
+          <th scope="col">Referrals</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let l of leaders; index as i">
+          <th scope="row">{{ i + 1 }}</th>
+          <td>{{ l.email }}</td>
+          <td>{{ l.referralCount }}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="modal-footer modalfooter">
+      <button type="button" class="btn btn-outline-dark btnWidth" (click)="modal.close()">OK</button>
+    </div>
+</ng-template>

@@ -1,10 +1,15 @@
-# Waitlist
+# TheAwaited
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0, Express JS and MongoDB.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Run command `npm install` at root folder to install all dependencies.
+2. Run command `npm run server` for starting the backend server. This will listen on port `3000`.
+3. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+4. The MongoDB will be setup automatically, No command needed for the same.
+
+Above steps would make the project initiate properly and the same can be checked on `http://localhost:4200/`.
 
 ## Code scaffolding
 

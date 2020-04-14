@@ -17,4 +17,11 @@ export class WelcomeService {
     return this.httpClient.get(`${Constants.backendUrl}users/`);
   }
 
+  deleteUsers() {
+    return this.httpClient.delete(`${Constants.backendUrl}users/`);
+  }
+
+  getLeader() {
+    return this.httpClient.get(`${Constants.backendUrl}leaders/`)
+  }
 }

@@ -1,29 +1,37 @@
 import { environment } from 'src/environments/environment';
 
 export const Constants = {
-    header: 'XYZ',
+    header: 'TheAwaited',
     backendUrl : environment.backend_url,
 
     welcome_screen: {
-        welcome_text: 'Welcome to XYZ website',
-        about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci velit, pharetra vel sapien quis, varius pellentesque diam. Pellentesque ut pharetra leo. Pellentesque pellentesque sodales posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer pulvinar ultrices dolor, at venenatis arcu congue quis. Integer arcu lectus, sollicitudin scelerisque efficitur at, venenatis id nunc. In fermentum condimentum lorem nec feugiat. Sed mauris tortor, consectetur eget sagittis quis, laoreet porttitor est. Etiam nec consequat justo. Donec ornare eget lacus et venenatis. Etiam tincidunt dui at massa fermentum ultrices. Morbi elit tortor, molestie quis lorem in, ultricies aliquam dui. Aenean vitae tincidunt est, eu placerat ex. Donec luctus tellus eget dignissim aliquam. Duis laoreet erat nec nisl euismod varius.',
-        subscribe_text: 'To get early access and earn 50 points, ',
-        subscribe: 'SUBSCRIBE!!!',
+        welcome_text: 'Welcome to TheAwaited',
+        about: `We will be unveiling our streaming service TheAwaited shortly, We are going to change the streaming of animated movies and web series as a whole.
+        We take yet another momentous step in staying committed to our promise of delivering high-quality impactful stories for everyone across the globe that
+        have not only entertained but also made a difference in people’s lives.
+        We hope the power of TheAwaited storytelling, delivered through high speed streaming technology, will help our viewers find moments of comfort, happiness, and inspiration during these difficult times of coronavirus.`,
+        early_access: 'To Get Early Access and Win Amazing Rewards, ',
+        subscribe: 'SUBSCRIBE NOW !!!'
+    },
+
+    thankyou_screen: {
+        thank_you: 'Thank you!',
+        added_email: 'We have added your email address to the signup queue.',
+        position: 'Your current position is',
+        position_text: 'people are ahead of you !',
+        offer_text: 'Interested in earning rewards ?',
+        share: 'Get amazing rewards by referring your friends. The more the friends join, the more you can win.',
+        share_now: 'SHARE NOW !',
+        view_leader_borad: 'View Leader Board',
+    },
+
+    timer: {
+        time_left: 'Time left to go LIVE !!!',
         days: 'Days',
         hours: 'Hours',
         minutes: 'Minutes',
         seconds: 'Seconds'
     },
 
-    thankyou_screen: {
-        thank_you: 'Thank you!',
-        position: 'Your position is 501.',
-        position_text: 'There are 500 people ahead of you.',
-        offer_text: 'People with top 3 positions will get exicting prizes.',
-        share: 'To move up your position and earn bonus points of 10,',
-        share_now: 'SHARE NOW !',
-        view_leader_borad: 'View Leader Board'
-    },
-
-    footer: '@copyright 2020'
+    footer: '© 2020 TheAwaited. All Rights Reserved.'
 };
