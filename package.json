@@ -28,7 +28,7 @@
     "cors": "^2.8.5",
     "font-awesome": "^4.7.0",
     "mongodb": "^3.5.5",
-    "mongoose": "^5.9.7",
+    "mongoose": "^5.13.15",
     "particles.js": "^2.0.0",
     "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
